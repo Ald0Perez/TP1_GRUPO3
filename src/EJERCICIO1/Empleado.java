@@ -5,7 +5,7 @@ public class Empleado {
 	final int   id ;
 	String nombre;
 	int edad;
-	private static int  cont=1000;
+	private static int  cont=999;
 	
 	public int getId() {
 		return id;
@@ -29,23 +29,22 @@ public class Empleado {
 	}
 
 	public Empleado() {
-		
+		cont++;
 		this.id=cont;
 		this.nombre="Sin Nombre";
 		this.edad =99;
-		cont++;
+		
 	}
 	
 	public Empleado(String Nombre,int edad) {
-		
+			cont++;
 		this.id=cont;
 		this.nombre=Nombre;
 		this.edad =edad;
-		cont++;
+	
 	}
-
 	public int DevuelveProximoId() {
-		return cont;
+		return cont+1;
 		
 	}
 
