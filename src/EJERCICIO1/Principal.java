@@ -9,7 +9,7 @@ public class Principal {
 		 vEmp[1] = new Empleado("Lucas",33);
 		 vEmp[2] = new Empleado();
 		 vEmp[3] = new Empleado("Juan",27);
-		 vEmp[4] = new Empleado("Ezequiel",46);
+		 vEmp[4] = new Empleado("Roberto",106);
 	
 		 for (Empleado empleado : vEmp) {
 			System.out.println(empleado.toString()) ; 
