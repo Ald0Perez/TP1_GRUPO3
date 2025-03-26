@@ -5,7 +5,7 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		Empleado []vEmp=new Empleado [5];
-		vEmp [0] = new Empleado("Aldo",20);
+		vEmp [0] = new Empleado("Martin",20);
 		 vEmp[1] = new Empleado("Lucas",33);
 		 vEmp[2] = new Empleado();
 		 vEmp[3] = new Empleado("Juan",27);
